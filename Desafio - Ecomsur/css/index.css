@@ -1,0 +1,43 @@
+h1 
+{
+    font-family: "Raleway", sans-serif;
+    font-size: xx-large;
+}
+
+body, html 
+{
+    height: 90%;
+    background-image: url('https://cdn.lanetaneta.com/wp-content/uploads/2019/11/Louis-Vuitton-%E2%80%98sale-de-compras%E2%80%99-y-se-lleva-las-joyas.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo
+{
+    text-align: center;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2d6187;
+}
+
+.btn
+{
+    border-radius: 7px;
+    text-decoration: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.btn:hover
+{
+    background-color: #8bcdcd;
+    color: white;
+}
